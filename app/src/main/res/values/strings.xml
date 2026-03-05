@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BilleteraVIrtual</string>
+    <string name="hint_amount">Ingrese la cantidad en dólares</string>
+    <string name="btn_buy">Compra</string>
+    <string name="btn_sell">Venta</string>
+    <string name="text_history">Historial de transacciones:\n</string>
+</resources>
