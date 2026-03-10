@@ -11,10 +11,11 @@
     <EditText
         android:id="@+id/amountEditText"
         android:layout_width="0dp"
+        app:layout_constraintWidth_max="488dp"
         android:layout_height="wrap_content"
         android:hint="@string/hint_amount"
+        android:textColorHint="@android:color/darker_gray"
         android:autofillHints=""
-        android:textColorHint="#757575"
         android:inputType="numberDecimal"
         android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -25,6 +26,7 @@
     <Button
         android:id="@+id/buyButton"
         android:layout_width="0dp"
+        app:layout_constraintWidth_max="240dp"
         android:layout_height="wrap_content"
         android:text="@string/btn_buy"
         app:layout_constraintEnd_toStartOf="@+id/sellButton"
@@ -37,6 +39,7 @@
     <Button
         android:id="@+id/sellButton"
         android:layout_width="0dp"
+        app:layout_constraintWidth_max="240dp"
         android:layout_height="wrap_content"
         android:text="@string/btn_sell"
         app:layout_constraintEnd_toEndOf="parent"
